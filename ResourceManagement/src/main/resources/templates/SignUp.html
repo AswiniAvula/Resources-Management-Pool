@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
 
 <head>
   <meta charset="utf-8">
@@ -54,19 +54,19 @@
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Name</label>
                       <div class="input-group has-validation">
-                        <input type="text" name="name" class="form-control" id="yourName" th:feild="*{Name}"required>
+                        <input type="text" name="name" class="form-control" id="yourName" th:field="*{Name}"required>
                         <div class="invalid-feedback">Please choose a Name.</div>
                       </div>
                     </div>
                     <div class="col-12">
                       <label for="yourName" class="form-label">Email</label>
-                      <input type="email" name="email" class="form-control" id="yourEmail" th:feild="*{Email}" required>
+                      <input type="email" name="email" class="form-control" id="yourEmail" th:field="*{Email}" required>
                       <div class="invalid-feedback">Please, enter your Email!</div>
                     </div>
 
                     <div class="col-12">
                       <label for="yourEmail" class="form-label">Password</label>
-                      <input type="password" name="password" class="form-control" id="yourPassword" th:feild="*{password}" required>
+                      <input type="password" name="password" class="form-control" id="yourPassword" th:field="*{password}" required>
                       <div class="invalid-feedback">Please enter a valid Password!</div>
                     </div>
                     <div class="col-12">
