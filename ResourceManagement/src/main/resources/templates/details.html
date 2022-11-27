@@ -50,26 +50,7 @@
         <li><a th:href="@{/details/Support/1}">Support</a></li>
     </ul>
 </div>
-<!--div align="center" class="container" style="padding-top:30px; font-family:Trebuchet MS;">
-    <table border="2" style="width:100%">
-        <thead>
-        <tr  align="center">
-            <th align="center"> EmpID</th>
-            <th align="center"> Name</th>
-            <th> RM</th>
-            <th> Band</th>
-            <th> DOJ</th>
-            <th> SkillSet</th>
-            <th> Sub Set</th>
-            <th> RAS allocation</th>
-            <th> Remarks</th>
-            <th> Status</th>
-            <!--th>BlockedBy</th>
-            <th> Action</th>
-        </tr>
-        </thead>
-        <tbody-->
-        <div align="center" class="container">
+<div align="center" class="container">
     <table border="2" style="width:100%">
         <thead>
         <tr>
@@ -82,11 +63,10 @@
             <th> Email</th>
             <th> Skill</th>
             <th> Start Date</th>
-            <th> Status</th>
             <th> Remarks</th>
             <th> Blocked For</th>
             <th> Current RAS allocation</th>
-            <th>status</th>
+            <th>Status</th>
             <th> Action</th>
         </tr>
         </thead>
@@ -101,7 +81,6 @@
             <td th:text="${employee.Email}"></td>
             <td th:text="${employee.Skill_Set}"></td>
             <td th:text="${employee.StartDate}"></td>
-            <td th:text="${employee.Status}"></td>
             <td th:text="${employee.Remarks}"></td>
             <td th:text="${employee.block_for}"></td>
   			<td th:text="${employee.current_RAS}"></td>
