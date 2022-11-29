@@ -1,0 +1,6 @@
+'3', 'loginmanager@gmail.com', 'Manager', 'password', 'manager'
+'8', 'loc1@gmail.com', 'Tan Loc', 'TPTL123', 'admin'
+'9', 'loc3@gmail.com', 'Tan Loc', 'password', 'employee'
+'12', 'loginadmin@gmail.com', 'Admin', 'password', 'admin'
+'15', 'loc2@gmail.com', 'Tan Loc 2', 'TPTL123', 'manager'
+
